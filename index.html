@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hamrah</title>
+    <script type="module" crossorigin src="./assets/index-DEeWa5de.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CcrErY93.css" />
+  </head>
+  <body>
+    <h1 id="UP"></h1>
+    <div id="app">
+      <header>
+        <div class="for-logo">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABJCAMAAAC9+g4xAAACQ1BMVEVHcEwiHiAkICEjHR4kHyEhHR/7qxk3QDshHB0hGiD9qBP7pxn9sBT8pxj6phr9pRQgHR5WxdBVx9AiHiD9sBEjHyBUxdMiHh8jHyAkICEgGBgiHh8iHR8fGxxWxtFWxtFWxs/7pxtWxdAeGhv6phoiHh/6phr7phkhHh8kHyAjHyEhHB0jHyAdGhtUxdBXyNNVxtD7qBogHB1VxtFXxdAiHh9XxtH8qBhVxtAiHR76pxpWxdBWw8/6oxv7qhkiHh/6pxojHh8fHB0hHB0iHh8mHyD8pxpUxtBWxtH7qRlVxtL7pxlWx9L7qRn7qxn7phkiHR7+pQtXxdD9pg9VxdIjHx8iHR8iHiBZydT9uhdUydP+pQ3+rxn7qBhWxtD6phr7pxhYxtD7qBr8rxRPxtf9nxD6pRoiHx8jICEkHyH6mxhQyNL8pxf7qBdUyNNSytYv0OY92eJYxdBVxc/7pxhBxuo7zO3/oQr9og5WxtEv0PT/owY4yvI2zPJLxtv9oxH/ogU5yu8/yeo6yvEQDw8iHyAcGBn5ryD7nyH8ihNkwMxVwM1c0Nj7wRFSxc/7rRjYqDpa3ONPv8szy/mvuGi/0l3PokZAy+b8tBPUqkBCzelSyc5cws5QyNv7oBr6lB7/wgBLx9v/oQD/owZGyOMNBAQVFBRWxdAjHyD6phokHyD8phn6pxtXxtFWxM8lISJXxNAnIyT6pBr6oRxTws5bw875mR4hISL/pRL5mxz/oANZvcn/pwBPytJdv9D/nxYqGxzyA2aVAAAAp3RSTlMAIuvnMwlRAj4PMuAJYfcQz/Uc/AX4BjrE3gXxF4TjqimZoxvp49jHE5VDd7MpPTiVqX8vyqVchVBKpNBD/bNt73PWT1xFKn2/iod5j6Acy7x8Y3LskGCLDGEVaRYl2Py6bM5YIZDSmq/KtHUeRWbNL0G7cMOGjtY9sSlLOlfwSJjE0LppVqqq8YHx7fKSGXxUYGBlhCvxOZK2rRTkEsTJbn+o9d1EXatDinwAAAT+SURBVFjD7Zb3WxpJGMcHBQGJioWjiQ1RjGLH/th7i12jOaOxp5/pudTi9d5brpYZxmWXXSwxV/+0m0VRsiywer/m/YFnnneez8xbvvOyABzJYodLzmRn5ywcOxLclePiOBcxrv7Q8LG4XB/qM8p7SPpUZbaf9UUQfyi6vyueQFx2yfCF9vaYqxxFfX8I+nxmvItzNWZe8BeNVCFGMp0yGE+uXpxKOHCVeDWS8TgNuTv3xes0VKzUjs1wQTSIpWok4pWE1sQJvRqJxY/J4bj4nhSh++RWuyS9ZJLEa/qDlbBzUgp+X8N5NWJdeut9KXgXyTxT7JGcPSuBfvUEEZuoRBakPJw4oreaBLGdt9+UgPe5uNNxojsfZkp4K7kuLke8Qz2VkfGbjS6uJEV0a3BQQuqk7j3iW1OvSxAsxXFz4i+h5rOMO5eTXgmL15C2hRDnR92fXk8vT4RptzoKQ+EzFJfTH+78iaJumoawXPyEq5z3RMS5PJlGQzcsC95Qkr6dkaCOcyQAWBzs/4HyLkr5V8giOH1OJPidxRQJeNEGhBvvTAjd9Vtc4ykJeNJ7G9BDvyZ0f7Xl8kqZiUXvbrjhZoXQPUdwKVPlihtCT2Kd0P35n15qJjJdturxQM9qksD95bUvnlOnEyJmXky7IT1yUeD+9ptrXz+nXJFe5ge9iaRtdO9TgX/23nVwwyW4/nyMQAgZxYSGnvQMoZ5X/74LhtddrtwAZ3tXX9wLSqhKd9OQhllBoi367q/bANygAvmYzJKewGAyOqZJ3DCxNyMop0/oTSKEBIr/KPDNu4S5vvq+qYC7yzo6iVpo2HlxMrgkH/+xeYn/n9nxHbBYn5sdr3lw8+A9FXaXQw8pWlpvkVhFL29swnJ+8eM/3Pr6+rNnv/x8MKAyhtLTIG8jWVUhRk7nJjl71jeaBh8sDN/3J/208ErWNNnyQHdaVtVEyI66+XcMV4du+89Xzt+5+1NWbSKJGbohXd5dF3bY1Xp8ARJJPXr4+PHDR7/eg35LLC+umI+ox0s0DQVGHNPpHXWT0r4PKvZqtGsjtbd6Z+uSDvdZOF9YVTE0VFFVVxZhsr+0lybFlP+LllvU/mWqRbXvto7Lya9CFhFHyORfG1GLf6nQIT0fmtEZga9GUfvx69Bx/1KNkNx3JGNIDcurAvjoAD7Zx5eyGEXJj8z/zqICG5NsjchbFWK8g8XRdtCMm8LxjBmoV5B5VCHkHaSe8gKHKYoJy7PRwMkgxDYTnvkNgON5yl1ebcfVYMWAcF5IWK8i9zdb2QZlA2ItwIbaAHDgZrmPV1gZQzNCBWqgF1eYYwk5Ca9VsU15ZoSxbIXnLSSYNaBmsAw0M0inBy3RUWK83IkQauJ5B0tW42O4tAC3gScsXmZYFWBJ/ZSpYCBPi5BBhF5GGGnHFEC2HW2yLDeoqp2owcDIUhmdiu/JXv8bzAjpRoNF3EJ0oW3lV03b/5LftgGEbXaj02QkYQOlmZXbxoFsNBkjs0VEf0TdBp42tWoRHlA02RBOdqYCGcjfNoHUUoZ9A5jseRgjW75atO54nO9Rvo1PXGHE2GzZ1ZgBrS2hba0cqJZ8+YV42npmDNhLoxDWjcuAApvz7Xsb+QzGxmrgKCBNMKyF7LuCQVodxlGlfG7WBvv+hql0tBqAAYzQQHW4V0O6hI3iuQHQSkSjivDs9a1tIcdWS4FefOM/1gS/E/M5fNEAAAAASUVORK5CYII="
+            alt="logo"
+          />
+        </div>
+        <div class="header">
+          <div class="header-right">
+            <div class="header-top">
+              <div class="top-item">همراه لحظه‌های دیجیتال</div>
+              <div class="top-item top-active">
+                <a href="#" class="top-active"> مشترکین حقیقی </a>
+              </div>
+              <div class="top-item"><a href="#">مشترکین سازمانی</a></div>
+              <div class="torbard">
+                <a href="#">
+                  <div class="tor">
+                    <img
+                      src="data:image/gif;base64,R0lGODlhGgAKAMQfAP+2Xv+YGv+xUv+WF//GgP+/cf+MAP+6Zv/ds/+jM/////+jNP+kNv+gLf+hL/+1W/+kNf+iMP+wT/+hLv+yVP+2Xf+xUf+1Wv+XGP/Cd//Ac//Hgv/Bdf/IhP/IhwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE2LTExLTE2VDE2OjQ4OjQ2KzAzOjMwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNy0wNi0xM1QxNToxMjoyNCswNDozMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNy0wNi0xM1QxNToxMjoyNCswNDozMCIgZGM6Zm9ybWF0PSJpbWFnZS9naWYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkNENDM4ODU1MDI0MTFFNzkwOEU4Q0RCNjQ2Q0M2NEEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkNENDM4ODY1MDI0MTFFNzkwOEU4Q0RCNjQ2Q0M2NEEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxYThlOGJiYy00OWViLWRiNDktOGUyNS0wNjYyZmI5OTNiMDQiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjFhOGU4YmJjLTQ5ZWItZGI0OS04ZTI1LTA2NjJmYjk5M2IwNCIgc3RFdnQ6d2hlbj0iMjAxNi0xMS0xNlQxNjo0ODo0NiswMzozMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gaW1hZ2UvZ2lmIHRvIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI0ODE4ZjU1LTAwZjEtZWY0YS05ZjMyLWI5MGYwMjE1MmQzYSIgc3RFdnQ6d2hlbj0iMjAxNi0xMS0yM1QxMjoxNTo1NCswMzozMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyNDgxOGY1NS0wMGYxLWVmNGEtOWYzMi1iOTBmMDIxNTJkM2EiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDozYjc3MmNkMi1iMTU5LTExZTYtYWQwMi1jNzRjNWE1NTkwZDciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQFCgAfACwAAAAAGgAKAAAFKqAhjmRZYkmaBGZrDurqziKssrRrp3j+xj1faScTtohB4wipNKFuzRMwBAAh+QQFCgAfACwQAAAACgAKAAAFJOAnftFhHsnonMcyTiw0Niwz1+NHn3YOn7Lc6uQSsoqj0ikRAgAh+QQFCgAfACwIAAAACgAKAAAFJOAnfhRiItconMgzWmw1Siww1+NHn3YOn7Lc6uQSsoqj0ukSAgAh+QQFZAAfACwAAAAACgAKAAAFJOAnfpliKsTInco2amw3Fqw31+NHn3YOn7Lc6uQSslK50okQAgA7"
+                      alt="rl"
+                    />
+                  </div>
+                  <div class="torr">ترابرد به همراه اول</div>
+                  <div class="tor">
+                    <img
+                      src="data:image/gif;base64,R0lGODlhGgAKAMQfAP+2Xv+YGv+xUv+WF//GgP+/cf+MAP+6Zv/ds/+jM/////+jNP+kNv+gLf+hL/+1W/+kNf+iMP+wT/+hLv+yVP+2Xf+xUf+1Wv+XGP/Cd//Ac//Hgv/Bdf/IhP/IhwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE2LTExLTE2VDE2OjQ4OjQ2KzAzOjMwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNy0wNi0xM1QxNToxMjowNSswNDozMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNy0wNi0xM1QxNToxMjowNSswNDozMCIgZGM6Zm9ybWF0PSJpbWFnZS9naWYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjE0MjlGMDA1MDI0MTFFNzk0MDRENDA4RTc5Q0VEMjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjE0MjlGMDE1MDI0MTFFNzk0MDRENDA4RTc5Q0VEMjQiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxYThlOGJiYy00OWViLWRiNDktOGUyNS0wNjYyZmI5OTNiMDQiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjFhOGU4YmJjLTQ5ZWItZGI0OS04ZTI1LTA2NjJmYjk5M2IwNCIgc3RFdnQ6d2hlbj0iMjAxNi0xMS0xNlQxNjo0ODo0NiswMzozMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gaW1hZ2UvZ2lmIHRvIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI0ODE4ZjU1LTAwZjEtZWY0YS05ZjMyLWI5MGYwMjE1MmQzYSIgc3RFdnQ6d2hlbj0iMjAxNi0xMS0yM1QxMjoxNTo1NCswMzozMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyNDgxOGY1NS0wMGYxLWVmNGEtOWYzMi1iOTBmMDIxNTJkM2EiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDozYjc3MmNkMi1iMTU5LTExZTYtYWQwMi1jNzRjNWE1NTkwZDciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQFCgAfACwAAAAAGgAKAAAFKmCQjAlmnGiqriI5rHDcjm9so3NS33a+8yySDgjzEYOuoypnUuKETecpBAAh+QQFCgAfACwAAAAACgAKAAAFJmByjEf0nedCHg56QuvkfszazDV5o/m4fzCSLLVqEUnGj4hkQoUAACH5BAUKAB8ALAgAAAAKAAoAAAUm4IWMCPWd50MiAnpWq+V+wCrNNXmj+bh/MJIstWoRScaPiGRChQAAIfkEBWQAHwAsEAAAAAoACgAABSYgoYxK9p3nRiocenar5n7eWsw1eaP5uH8wkiy1ap1EJOMHOTKhQgA7"
+                      alt="rl"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="header-bottom">
+              <nav>
+                <ul class="menu">
+                  <li>
+                    <a href="#">اینترنت</a>
+                    <div class="dropdown">
+                      <ul>
+                        <li>
+                          <div class="menu-right border">
+                            <div class="header-right-item border">
+                              <div class="item-item">
+                                <a href="#"> اینترنت و بسته</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">تنظیمات و فعالسازی</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">loremm</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <svg
+                            id="Layer_2"
+                            data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 38.89 38.89"
+                            style="width: 150px"
+                          >
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #53c4d1;
+                                }
+                              </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <path
+                                class="cls-1"
+                                d="M37.92,25.46s.04-.1,.05-.15c.59-1.85,.91-3.82,.91-5.87s-.32-4.02-.91-5.87c-.02-.05-.03-.09-.05-.14C35.39,5.65,28.07,0,19.44,0h0C8.72,0,0,8.72,0,19.44c0,2.09,.34,4.09,.95,5.98H.95c2.53,7.79,9.84,13.45,18.47,13.46,0,0,.02,0,.03,0,0,0,.01,0,.02,0,8.61,0,15.92-5.65,18.46-13.43ZM3,19.44c0-1.34,.18-2.64,.49-3.89h6.3c-.12,1.26-.19,2.56-.19,3.89s.07,2.64,.19,3.9H3.49c-.31-1.25-.49-2.55-.49-3.9Zm9.59,0c0-1.36,.08-2.66,.21-3.89h5.14v7.79h-5.14c-.13-1.24-.21-2.53-.21-3.9Zm13.04-6.89h-4.69V3.48c1.91,1.16,3.74,4.43,4.69,9.07ZM17.94,3.48V12.55h-4.68c.94-4.64,2.77-7.91,4.68-9.07Zm0,22.86v9.07c-1.91-1.16-3.74-4.43-4.68-9.07h4.68Zm3,9.07v-9.07h4.69c-.94,4.64-2.77,7.91-4.69,9.07Zm0-12.07v-7.79h5.14c.13,1.24,.21,2.53,.21,3.89s-.08,2.66-.21,3.9h-5.14Zm8.16-7.79h6.3c.31,1.25,.49,2.55,.49,3.89s-.18,2.64-.49,3.9h-6.3c.12-1.26,.19-2.56,.19-3.9s-.07-2.64-.19-3.89Zm5.25-3h-5.68c-.62-3.32-1.67-6.18-3.04-8.33,3.86,1.57,6.98,4.57,8.72,8.33ZM13.26,4.22c-1.37,2.15-2.42,5.01-3.04,8.33H4.54c1.75-3.76,4.87-6.76,8.72-8.33ZM4.54,26.34h5.68c.62,3.32,1.67,6.18,3.04,8.33-3.86-1.57-6.97-4.57-8.72-8.33Zm21.09,8.33c1.37-2.15,2.42-5.01,3.04-8.33h5.68c-1.75,3.76-4.87,6.76-8.72,8.33Z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="#">تعرفه و طرح های تشویقی</a>
+                    <div class="dropdown">
+                      <ul>
+                        <li>
+                          <div class="menu-right">
+                            <h2>تعرفه ها</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#"> اینترنت و بسته</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">تنظیمات و فعالسازی</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">lتشویقی</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>تشویقی</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>نمایندگی ها</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <svg
+                            id="Layer_2"
+                            data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 31.98 31.98"
+                            style="width: 150px"
+                          >
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #53c4d1;
+                                }
+                              </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <g>
+                                <path
+                                  class="cls-1"
+                                  d="M13.77,0H7.32C3.28,0,0,3.28,0,7.31v6.46c0,.83,.67,1.5,1.5,1.5h7.98c.47,0,.92-.22,1.2-.6,.28-.38,.37-.87,.23-1.33l-1.05-3.49,3.48,1.01c.45,.13,.94,.04,1.32-.24,.38-.28,.6-.73,.6-1.2V1.5c0-.83-.67-1.5-1.5-1.5Zm-1.5,7.43l-4.21-1.23c-.53-.15-1.1,0-1.48,.38-.39,.39-.53,.96-.37,1.49l1.26,4.2H3V7.31c0-2.38,1.94-4.31,4.32-4.31h4.95V7.43Z"
+                                ></path>
+                                <path
+                                  class="cls-1"
+                                  d="M14.67,21.3c-.38-.28-.87-.37-1.33-.23l-3.49,1.04,1.02-3.48c.13-.45,.04-.94-.24-1.32-.28-.38-.73-.6-1.2-.6H1.5c-.83,0-1.5,.67-1.5,1.5v6.45c0,4.04,3.28,7.32,7.32,7.32h6.45c.83,0,1.5-.67,1.5-1.5v-7.97c0-.47-.22-.92-.6-1.2Zm-2.4,7.68H7.32c-2.38,0-4.32-1.94-4.32-4.32v-4.95H7.43l-1.23,4.21c-.15,.53,0,1.1,.38,1.49,.39,.39,.96,.53,1.49,.37l4.2-1.26v4.46Z"
+                                ></path>
+                                <path
+                                  class="cls-1"
+                                  d="M24.66,0h-6.45c-.83,0-1.5,.67-1.5,1.5v7.97c0,.47,.22,.92,.6,1.2,.38,.28,.87,.37,1.33,.23l3.49-1.04-1.01,3.48c-.13,.45-.04,.94,.24,1.32s.73,.6,1.2,.6h7.92c.83,0,1.5-.67,1.5-1.5V7.31c0-4.03-3.28-7.31-7.32-7.31Zm4.32,12.27h-4.43l1.23-4.21c.15-.53,0-1.1-.38-1.48-.39-.39-.96-.53-1.49-.37l-4.2,1.26V3h4.95c2.38,0,4.32,1.93,4.32,4.31v4.96Z"
+                                ></path>
+                                <path
+                                  class="cls-1"
+                                  d="M30.48,16.71h-7.97c-.47,0-.92,.22-1.2,.6-.28,.38-.37,.87-.23,1.33l1.04,3.49-3.48-1.01c-.45-.13-.94-.04-1.32,.24-.38,.28-.6,.73-.6,1.2v7.92c0,.83,.67,1.5,1.5,1.5h6.45c4.04,0,7.32-3.28,7.32-7.32v-6.45c0-.83-.67-1.5-1.5-1.5Zm-1.5,7.95c0,2.38-1.94,4.32-4.32,4.32h-4.95v-4.43l4.21,1.23c.53,.15,1.1,0,1.48-.38,.39-.39,.53-.96,.37-1.49l-1.26-4.2h4.46v4.95Z"
+                                ></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="#">سرویس ها و محصولات</a>
+                    <div class="dropdown">
+                      <ul>
+                        <li>
+                          <div class="menu-right">
+                            <h2>سیمکارت</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">loremm</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>محصولات</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>نمایندگی ها</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <svg
+                            id="Layer_2"
+                            data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 45.23 48.63"
+                            style="width: 150px"
+                          >
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #53c4d1;
+                                }
+                              </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <path
+                                class="cls-1"
+                                d="M45.19,24.21c-.1-.4-.37-.75-.73-.95-1.48-.81-3.12-1.05-4.66-.75V2.5c0-1.38-1.12-2.5-2.5-2.5h-13.58c-.65,0-1.26,.25-1.73,.7L12.95,9.36c-.49,.47-.78,1.13-.78,1.81v15.76c-.54,.29-1.05,.66-1.5,1.11l-2.24,2.25-.7-.7c-.28-.29-.67-.44-1.06-.45h-.01c-.39,0-.77,.16-1.06,.44L.44,34.74c-.28,.29-.44,.67-.44,1.06s.16,.78,.44,1.07l11.34,11.33c.3,.29,.68,.43,1.06,.43s.77-.14,1.07-.44l5.15-5.15c.54-.54,.58-1.4,.11-1.99h9.99c1.69,0,3.28-.63,4.49-1.79l.39-.37,5.06-4.79c.25-.23,.48-.49,.7-.77,.1-.13,.19-.27,.29-.41l4.9-7.53c.23-.35,.3-.77,.2-1.18ZM15.17,11.38L23.92,3h12.88V23.85c-.43,.35-.83,.74-1.19,1.19-.13,.16-.25,.32-.35,.46,0,0,0,.03-.02,.04l-1.15,1.67-1.16,.59v-8.18c0-.83-.67-1.5-1.5-1.5h-10.9c-.83,0-1.5,.67-1.5,1.5v6.49h-3.7s-.11,0-.16,0V11.38Zm14.34,16.22h-5.71c-.53-.44-1.13-.79-1.77-1.03v-5.45h7.9v6.5c-.14,0-.28-.02-.42-.02ZM12.84,45.01L3.63,35.8l3.03-3.03,.65,.65s.03,.04,.05,.06l7.14,7.14s.04,.04,.06,.05l1.31,1.31-3.03,3.03Zm26.96-17.14l-2.21,3.4c-.17,.25-.34,.45-.55,.65l-.24,.23-3.95,3.74-1.27,1.2c-.65,.62-1.51,.96-2.42,.96h-12.97l-4.02-4.02-1.62-1.62,1.62-1.62h0l.62-.62c.64-.64,1.48-1.02,2.38-1.05,.05,0,.11,0,.16,0h4.28c.32,0,.62,.04,.92,.12,.62,.16,1.18,.48,1.63,.94l.36,.35,.08,.08h6.91c.29,0,.55,.15,.69,.38,.02,.03,.03,.05,.05,.08,0,0,0,.01,0,.01,.01,.05,.02,.1,.04,.15,.01,.04,.02,.11,.02,.2,0,.3-.15,.5-.23,.58l-.02,.02c-.14,.14-.34,.21-.56,.21h-8.36c-.82,0-1.5,.67-1.5,1.5s.68,1.5,1.5,1.5h8.36c1.03,0,1.99-.39,2.72-1.12,.71-.73,1.09-1.68,1.09-2.69,0-.15-.02-.29-.03-.44h.01s2.48-1.27,2.48-1.27l.34-.17,.11-.17s.08-.09,.11-.14l.46-.67,.94-1.36c.04-.06,.08-.13,.13-.18,.03-.03,.05-.06,.08-.09l.31-.34v-.02c.44-.46,.97-.78,1.54-.97,.52-.18,1.06-.25,1.61-.2l-1.61,2.47Z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="#">مسابقات و برندگان</a>
+                    <div class="dropdown">
+                      <ul>
+                        <li>
+                          <div class="menu-right">
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">خرید از *1#</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <svg
+                            id="Layer_2"
+                            data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 38.89 38.89"
+                            style="width: 150px"
+                          >
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #53c4d1;
+                                }
+                              </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <path
+                                class="cls-1"
+                                d="M36.39,9.86h-6.59c.63-.99,1-2.17,1-3.43,0-3.55-2.88-6.43-6.43-6.43-1.98,0-3.75,.9-4.93,2.31-1.18-1.41-2.95-2.31-4.93-2.31-3.55,0-6.43,2.88-6.43,6.43,0,1.26,.37,2.44,1,3.43H2.5c-1.38,0-2.5,1.12-2.5,2.5v7.72c0,1.04,.64,1.94,1.56,2.31v14c0,1.38,1.12,2.5,2.5,2.5h30.78c1.38,0,2.5-1.12,2.5-2.5v-14c.91-.37,1.56-1.27,1.56-2.31v-7.72c0-1.38-1.12-2.5-2.5-2.5Zm-.5,9.72h-14.94v-6.72h14.94v6.72ZM24.37,3c1.89,0,3.43,1.54,3.43,3.43s-1.54,3.43-3.43,3.43h-3.43v-3.43c0-1.89,1.54-3.43,3.43-3.43Zm-13.29,3.43c0-1.89,1.54-3.43,3.43-3.43s3.43,1.54,3.43,3.43v3.43h-3.43c-1.89,0-3.43-1.54-3.43-3.43ZM3,12.86h14.94v6.72H3v-6.72Zm1.56,9.72h13.39v13.31H4.56v-13.31Zm29.78,13.31h-13.39v-13.31h13.39v13.31Z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="#">پشتیبانی</a>
+                    <div class="dropdown">
+                      <ul>
+                        <li>
+                          <div class="menu-right">
+                            <h2>نمایندگی ها</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>24 ساعته</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">سیم کرت کودک و نوجوان</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">سایر</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="menu-right">
+                            <h2>نمایندگی ها</h2>
+                            <div class="header-right-item">
+                              <div class="item-item">
+                                <a href="#">کد های دستوری</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                              <div class="item-item">
+                                <a href="#">شعبه های تهران</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <svg
+                            id="Layer_2"
+                            data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 42.18 35.84"
+                            style="width: 150px"
+                          >
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #53c4d1;
+                                }
+                              </style>
+                            </defs>
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <path
+                                class="cls-1"
+                                d="M36.22,15.09c-.01-4.02-1.58-7.8-4.43-10.66C28.92,1.57,25.13,0,21.09,0,12.76,0,5.99,6.76,5.97,15.09c-3.35,.34-5.97,3.17-5.97,6.6s2.88,6.53,6.46,6.63c1.36,4.32,5.38,7.46,10.14,7.51h0s6.56,0,6.56,0c1.34,0,2.43-1.09,2.43-2.43s-1.09-2.43-2.43-2.43h-4.13c-1.15,0-2.1,.79-2.36,1.86-4.25-.02-7.71-3.48-7.71-7.74v-8.54h0v-1.42c0-6.69,5.44-12.13,12.13-12.13,3.23,0,6.28,1.26,8.58,3.55,2.29,2.3,3.55,5.34,3.55,8.58v1.42s0,0,0,0v10.27c0,.83,.67,1.5,1.5,1.5h.83c3.66,0,6.64-2.98,6.64-6.64,0-3.43-2.62-6.27-5.97-6.6ZM5.96,25.26c-1.68-.32-2.96-1.8-2.96-3.57s1.28-3.26,2.96-3.58v7.15Zm30.26,0v-7.15c1.68,.32,2.96,1.8,2.96,3.58s-1.28,3.26-2.96,3.57Z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="city">
+                    <div class="city1">
+                      <span class="show"
+                        ><svg
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          width="50px"
+                          height="32px"
+                          viewBox="0 0 50 32"
+                          enable-background="new 0 0 50 32"
+                          xml:space="preserve"
+                        >
+                          <g id="_x23_62c2d0ff">
+                            <path
+                              fill="#FFFFFF"
+                              d="M16.417,3.353c0.803-0.827,1.939-1.285,3.081-1.355c1.387-0.05,2.8,0.525,3.717,1.578
+                       c0.604,0.661,1,1.503,1.148,2.384c0.137,0.967,0.018,1.983-0.436,2.856c-0.571,1.18-1.666,2.086-2.927,2.437
+                       c-1.524,0.453-3.263,0.046-4.434-1.026c-0.088-0.089-0.221-0.068-0.334-0.073c-1.203,0.012-2.407-0.011-3.61,0.011
+                       c0.062,1.702-0.909,3.378-2.395,4.199c-0.568,0.323-1.204,0.524-1.854,0.587c-0.648,0.027-1.297,0.028-1.945,0.002
+                       c-1.649-0.139-3.164-1.209-3.897-2.686c-0.307-0.605-0.464-1.28-0.492-1.957C2.04,9.289,2.043,8.268,2.041,7.246
+                       C1.981,6.62,2.025,5.99,2.006,5.362c-0.006-0.201-0.036-0.403-0.01-0.603c0.043-0.095,0.166-0.055,0.247-0.067
+                       C2.956,4.704,3.67,4.68,4.382,4.704c0.024,1.069-0.003,2.138,0.01,3.208C4.42,8.625,4.396,9.34,4.41,10.054
+                       c-0.049,0.625,0.21,1.244,0.606,1.718c0.461,0.509,1.134,0.821,1.822,0.834c0.539-0.003,1.082,0.02,1.617-0.074
+                       c0.992-0.222,1.766-1.151,1.802-2.169c0.001-1.838,0-3.677,0-5.516c-0.02-0.095,0.058-0.175,0.154-0.154
+                       c0.746,0.006,1.492-0.012,2.238,0.01c0.026,0.97-0.004,1.94,0.014,2.911c0.52,0.03,1.041-0.01,1.56,0.018
+                       c0.287,0.032,0.576,0.026,0.865,0.023c-0.105-0.453-0.092-0.918-0.079-1.379C15.12,5.18,15.608,4.109,16.417,3.353 M19.309,4.409
+                       c-0.456,0.079-0.883,0.299-1.224,0.61c-0.463,0.445-0.717,1.081-0.733,1.719c0.024,0.488,0.176,0.974,0.466,1.369
+                       c0.442,0.621,1.211,0.976,1.967,0.954c0.411-0.025,0.819-0.137,1.168-0.358c0.493-0.314,0.867-0.814,1.014-1.381
+                       c0.173-0.598,0.068-1.261-0.248-1.794c-0.339-0.609-0.983-1.02-1.666-1.126C19.807,4.381,19.556,4.378,19.309,4.409z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M7.315,6.903C8,6.819,8.708,7.297,8.879,7.968C9.034,8.46,8.856,9.01,8.51,9.378
+                       c-0.247,0.23-0.567,0.387-0.904,0.421C7.218,9.836,6.823,9.697,6.527,9.446c-0.395-0.347-0.602-0.92-0.46-1.434
+                       C6.202,7.431,6.726,6.978,7.315,6.903z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M39.007,7.56c0.16-0.053,0.398-0.002,0.405,0.201c0.06,0.224-0.227,0.454-0.42,0.3
+                       C38.797,7.946,38.826,7.672,39.007,7.56z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M26.383,8.17c0.184-0.011,0.368-0.012,0.553,0.002c0.005,0.035,0.014,0.104,0.019,0.139
+                       c0.155-0.071,0.316-0.17,0.494-0.14c0.186,0.018,0.348,0.116,0.512,0.196c0.265-0.173,0.612-0.267,0.915-0.138
+                       c0.311,0.098,0.472,0.445,0.473,0.752c-0.005,0.391,0.003,0.783-0.005,1.174c-0.188,0.008-0.377,0.008-0.565-0.001
+                       c-0.03-0.37,0.006-0.741-0.016-1.11c-0.014-0.136-0.044-0.313-0.2-0.354c-0.187-0.08-0.415,0.089-0.391,0.29
+                       c-0.007,0.389,0.015,0.779-0.009,1.168c-0.198,0.016-0.398,0.016-0.596,0c-0.027-0.405,0.005-0.81-0.013-1.216
+                       c-0.006-0.164-0.188-0.286-0.345-0.255c-0.165,0.021-0.274,0.195-0.263,0.354c-0.006,0.374,0.008,0.748-0.002,1.122
+                       c-0.186,0.008-0.372,0.008-0.557,0c-0.008-0.374,0.002-0.747-0.002-1.121C26.386,8.746,26.35,8.457,26.383,8.17z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M29.77,8.178c0.195-0.02,0.392-0.02,0.589-0.004c0.028,0.405-0.006,0.811,0.014,1.216
+                       c0.009,0.18,0.218,0.305,0.385,0.244c0.109-0.039,0.26-0.103,0.24-0.245c0.006-0.404-0.001-0.808-0.004-1.212
+                       c0.198-0.019,0.398-0.019,0.597-0.01c0.007,0.612-0.001,1.225,0.004,1.838c0.003,0.419-0.283,0.821-0.68,0.955
+                       c-0.238,0.05-0.525,0.052-0.712-0.127c-0.161-0.15-0.334-0.306-0.407-0.52c0.15-0.004,0.307-0.03,0.453,0.015
+                       c0.163,0.083,0.317,0.238,0.518,0.177c0.207-0.06,0.238-0.307,0.267-0.489c-0.216,0.106-0.458,0.192-0.7,0.122
+                       c-0.341-0.067-0.568-0.414-0.56-0.749C29.773,8.986,29.777,8.582,29.77,8.178z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M33.38,8.169c0.182-0.01,0.365-0.011,0.548,0.003c0.005,0.035,0.014,0.104,0.019,0.138
+                       c0.156-0.074,0.321-0.161,0.499-0.139c0.186,0.015,0.349,0.112,0.513,0.193c0.259-0.149,0.578-0.261,0.873-0.152
+                       c0.311,0.079,0.52,0.406,0.509,0.718c-0.006,0.408,0.003,0.817-0.005,1.225c-0.186,0.008-0.372,0.008-0.557,0
+                       c-0.011-0.357,0.008-0.715-0.005-1.072c-0.012-0.129-0.023-0.289-0.145-0.364c-0.172-0.113-0.456,0.001-0.461,0.215
+                       c-0.011,0.407,0.007,0.815-0.005,1.222c-0.189,0.008-0.377,0.008-0.565-0.002c-0.032-0.368,0.007-0.739-0.016-1.108
+                       c-0.008-0.151-0.081-0.324-0.243-0.36c-0.175-0.058-0.342,0.099-0.392,0.252c-0.023,0.405,0.005,0.811-0.009,1.216
+                       c-0.186,0.009-0.373,0.009-0.558,0.001C33.376,9.493,33.377,8.83,33.38,8.169z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M36.773,8.655c0.182-0.308,0.542-0.474,0.89-0.487c0.397,0.014,0.731,0.301,0.875,0.66
+                       c-0.198-0.002-0.418,0.047-0.592-0.072c-0.125-0.087-0.282-0.097-0.427-0.069c-0.347,0.117-0.43,0.626-0.175,0.873
+                       c0.126,0.105,0.317,0.167,0.472,0.087c0.091-0.042,0.174-0.102,0.266-0.141c0.146-0.03,0.296-0.012,0.444-0.007
+                       c-0.083,0.217-0.234,0.403-0.422,0.539c-0.547,0.356-1.445-0.07-1.427-0.747C36.678,9.076,36.656,8.844,36.773,8.655z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M38.903,8.176c0.164-0.031,0.332-0.009,0.498-0.007c0.021,0.065,0.035,0.133,0.035,0.202
+                       c-0.005,0.592-0.006,1.183,0.001,1.775c-0.196,0.02-0.393,0.02-0.589,0.004c-0.022-0.593-0.003-1.187-0.011-1.78
+                       C38.848,8.306,38.817,8.192,38.903,8.176z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M13.162,12.914c0.834-0.006,1.669-0.005,2.504-0.001c0.006,4.049-0.002,8.098,0.004,12.147
+                       c-0.011,0.67-0.533,1.271-1.173,1.436c-0.183,0.055-0.376,0.044-0.564,0.043c-0.257-0.005-0.514,0.006-0.771-0.005
+                       c-0.025-0.866-0.003-1.733-0.011-2.599c0.001-3.454,0-6.907,0.001-10.361C13.15,13.355,13.145,13.134,13.162,12.914z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M34.111,13.173c0.174,0,0.343,0.042,0.512,0.077c3.07,0.609,6.14,1.215,9.211,1.813
+                       c0.319,0.057,0.636,0.127,0.942,0.233c1.232,0.422,2.264,1.377,2.796,2.563c0.708,1.538,0.51,3.45-0.512,4.803
+                       c-0.805,1.107-2.108,1.835-3.474,1.939c-0.375-0.009-0.755,0.033-1.126-0.045c-1.043-0.191-2.081-0.408-3.122-0.607
+                       c-0.083-0.017-0.16,0.021-0.234,0.048c-1.172,0.468-2.429,0.699-3.686,0.759c-1.532-0.008-3.063-0.001-4.595-0.004
+                       c-0.083,0.003-0.181-0.007-0.239,0.066c-0.683,0.629-1.547,1.064-2.465,1.212c-0.387,0.081-0.783,0.043-1.175,0.05
+                       c-1.063-0.079-2.087-0.54-2.869-1.262c-0.059-0.073-0.157-0.063-0.24-0.066c-1.343,0.006-2.687-0.003-4.03,0.004
+                       c-0.017,0.438,0.036,0.881-0.067,1.312c-0.134,0.852-0.468,1.679-1.02,2.347c-0.888,1.137-2.326,1.807-3.764,1.799
+                       c-0.001-0.797-0.007-1.594,0.001-2.391c0.602-0.028,1.214-0.227,1.652-0.655c0.335-0.305,0.579-0.707,0.69-1.147
+                       c0.088-0.313,0.046-0.642,0.054-0.962c0.009-0.477-0.026-0.955,0.033-1.43c0.018-1.597-0.019-3.196,0.024-4.794
+                       c0.797-0.006,1.595-0.004,2.393-0.001c0.009,1.121-0.003,2.242,0.005,3.363c0.936,0.003,1.872,0.007,2.807-0.002
+                       c-0.126-0.806-0.097-1.647,0.173-2.422c0.495-1.489,1.768-2.692,3.286-3.094c1.608-0.443,3.45,0.013,4.616,1.219
+                       c0.546,0.511,0.942,1.171,1.186,1.875c0.283,0.79,0.279,1.642,0.18,2.464c0.918-0.007,1.837,0.003,2.755-0.005
+                       c-0.029-0.048-0.056-0.099-0.092-0.141c-0.836-0.863-1.276-2.066-1.293-3.26c0.028-0.947,0.3-1.897,0.847-2.675
+                       c0.081-0.112,0.161-0.225,0.236-0.34c-0.283-0.099-0.591-0.095-0.872-0.201C33.796,14.802,33.966,13.99,34.111,13.173
+                        M37.889,16.608c-0.326,0.055-0.643,0.173-0.916,0.359c-0.512,0.325-0.862,0.882-0.972,1.474c-0.032,0.247-0.026,0.498-0.01,0.746
+                       c0.105,0.725,0.596,1.379,1.253,1.699c0.942,0.471,2.186,0.078,2.747-0.799c0.243-0.37,0.388-0.809,0.382-1.254
+                       c0.014-0.665-0.303-1.319-0.81-1.745C39.102,16.708,38.484,16.503,37.889,16.608 M42.707,17.419
+                       c0.121,0.478,0.198,0.968,0.21,1.461c-0.024,0.202-0.041,0.404-0.058,0.607c-0.114,0.78-0.41,1.541-0.888,2.172
+                       c-0.05,0.066-0.088,0.139-0.12,0.215c0.427,0.054,0.844,0.173,1.272,0.22c0.739,0.013,1.481-0.339,1.913-0.944
+                       c0.384-0.535,0.548-1.248,0.36-1.888c-0.141-0.583-0.537-1.086-1.047-1.395C43.852,17.571,43.258,17.548,42.707,17.419
+                        M27.018,19.059c-0.482,0.076-0.951,0.29-1.286,0.651c-0.433,0.401-0.65,0.991-0.677,1.571c0.008,0.587,0.231,1.182,0.653,1.597
+                       c0.42,0.452,1.04,0.684,1.649,0.702c0.358-0.027,0.721-0.105,1.037-0.283c0.595-0.309,1.032-0.899,1.157-1.559
+                       c0.142-0.594-0.029-1.228-0.362-1.729c-0.142-0.194-0.321-0.36-0.502-0.518C28.218,19.138,27.601,18.972,27.018,19.059z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M6.349,17.015c0.679-0.071,1.374-0.004,2.016,0.237c1.644,0.594,2.856,2.27,2.814,4.031
+                       c0.051,1.654-0.994,3.258-2.493,3.937c-0.79,0.364-1.694,0.501-2.552,0.339c-1.085-0.184-2.096-0.802-2.741-1.695
+                       c-0.51-0.684-0.8-1.524-0.844-2.375c-0.034-0.946,0.243-1.906,0.796-2.677C4.033,17.825,5.156,17.16,6.349,17.015 M6.554,19.06
+                       c-0.494,0.078-0.971,0.305-1.311,0.677c-0.416,0.4-0.617,0.976-0.649,1.544c0.013,0.598,0.244,1.199,0.674,1.623
+                       c0.423,0.429,1.024,0.659,1.622,0.675c0.568-0.032,1.143-0.235,1.544-0.65c0.416-0.382,0.657-0.931,0.7-1.491
+                       c0.035-0.624-0.198-1.265-0.644-1.707C8.004,19.214,7.255,18.954,6.554,19.06z"
+                            />
+                          </g>
+                        </svg>
+                      </span>
+                      <span class="none"
+                        ><svg
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          width="50px"
+                          height="32px"
+                          viewBox="0 0 50 32"
+                          enable-background="new 0 0 50 32"
+                          xml:space="preserve"
+                        >
+                          <g id="_x23_ffffffff">
+                            <path
+                              fill="#FFFFFF"
+                              d="M19.32,0h0.76c1.47,0.078,2.91,0.653,4.02,1.622c1.321,1.133,2.171,2.8,2.31,4.535
+                         c4.126-0.001,8.252,0,12.378-0.001c0.403-0.008,0.811-0.001,1.204,0.099c0.804,0.23,1.436,1.011,1.438,1.856
+                         c-0.002,0.7-0.002,1.399,0,2.099c0.005,0.493-0.213,0.971-0.544,1.33c-0.357,0.381-0.865,0.608-1.386,0.63
+                         c1.213,0.215,2.418,0.471,3.629,0.7c0.992,0.207,2.019,0.325,2.94,0.774c2.347,1.066,3.987,3.569,3.929,6.158
+                         c0.061,2.4-1.323,4.741-3.402,5.919c-1.457,0.853-3.239,1.116-4.884,0.746c-0.684-0.132-1.368-0.267-2.051-0.403
+                         c-0.119-0.026-0.243-0.035-0.358,0.01c-1.041,0.349-2.124,0.573-3.218,0.654c-0.934,0.083-1.872,0.04-2.808,0.051
+                         c-0.579,0.001-1.158-0.001-1.737-0.002c-0.144-0.013-0.266,0.07-0.378,0.149c-1.55,1.086-3.571,1.442-5.407,1.002
+                         c-0.854-0.2-1.666-0.571-2.377-1.085c-0.13-0.108-0.305-0.082-0.46-0.084c-0.42,0.009-0.84-0.005-1.259,0.006
+                         c-0.32,1.621-1.263,3.108-2.59,4.093c-1.093,0.826-2.441,1.311-3.81,1.359c-0.43,0.03-0.878-0.022-1.26-0.233
+                         c-0.595-0.318-1.016-0.943-1.066-1.618c-0.024-0.606,0.029-1.215-0.021-1.82c-0.61-0.078-1.183-0.438-1.49-0.975
+                         c-0.18-0.28-0.252-0.61-0.3-0.935c-0.3,0.193-0.579,0.416-0.892,0.586c-1.749,1.01-3.954,1.168-5.83,0.425
+                         c-1.135-0.44-2.144-1.196-2.893-2.154c-0.925-1.175-1.45-2.663-1.443-4.16c-0.024-1.769,0.698-3.53,1.942-4.784
+                         c0.286-0.304,0.615-0.563,0.946-0.816c-1.485-1.054-2.564-2.694-2.844-4.502c-0.105-0.643-0.062-1.295-0.084-1.942
+                         c0.003-0.97-0.007-1.94-0.002-2.911C0.02,6.25,0.01,6.121,0,5.993V4.571c0.052-0.993,0.939-1.86,1.937-1.865
+                         c0.835-0.001,1.671-0.002,2.507,0.001c0.821,0.006,1.586,0.587,1.845,1.36C6.4,4.38,6.399,4.717,6.4,5.047
+                         c0.279-0.064,0.558-0.14,0.847-0.151c0.34-0.031,0.679,0.025,1.017,0.067c0.005-0.324-0.001-0.658,0.13-0.961
+                         c0.282-0.756,1.051-1.312,1.864-1.298c0.835,0.003,1.67-0.004,2.505,0.003c0.448,0.001,0.847,0.225,1.211,0.463
+                         c0.289-0.424,0.591-0.842,0.961-1.2C16.085,0.801,17.68,0.083,19.32,0"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M19.309,4.409c0.247-0.031,0.498-0.028,0.745-0.007c0.683,0.107,1.327,0.518,1.666,1.126
+                         c0.316,0.533,0.421,1.196,0.248,1.794c-0.147,0.567-0.522,1.067-1.014,1.381c-0.35,0.221-0.757,0.333-1.168,0.358
+                         c-0.757,0.022-1.526-0.334-1.967-0.954c-0.291-0.395-0.442-0.881-0.466-1.369c0.016-0.637,0.27-1.274,0.733-1.719
+                         C18.426,4.707,18.854,4.488,19.309,4.409z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M37.889,16.608c0.595-0.105,1.213,0.1,1.674,0.479c0.507,0.426,0.824,1.08,0.81,1.745
+                         c0.006,0.445-0.138,0.884-0.382,1.254c-0.56,0.877-1.805,1.27-2.747,0.799c-0.657-0.319-1.148-0.973-1.253-1.699
+                         c-0.016-0.248-0.021-0.499,0.01-0.746c0.111-0.593,0.46-1.15,0.972-1.474C37.246,16.781,37.563,16.663,37.889,16.608z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M42.707,17.419c0.551,0.129,1.145,0.152,1.642,0.449c0.509,0.309,0.906,0.812,1.047,1.395
+                         c0.188,0.64,0.024,1.352-0.36,1.888c-0.432,0.605-1.174,0.957-1.913,0.944c-0.428-0.047-0.845-0.166-1.272-0.22
+                         c0.032-0.076,0.071-0.149,0.12-0.215c0.478-0.631,0.774-1.391,0.888-2.172c0.017-0.203,0.033-0.405,0.058-0.607
+                         C42.904,18.388,42.828,17.898,42.707,17.419z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M6.554,19.06c0.702-0.107,1.45,0.154,1.937,0.671c0.446,0.442,0.679,1.083,0.644,1.707
+                         c-0.042,0.559-0.284,1.109-0.7,1.491c-0.401,0.415-0.976,0.619-1.544,0.65c-0.598-0.016-1.199-0.246-1.622-0.675
+                         c-0.43-0.424-0.661-1.025-0.674-1.623c0.032-0.568,0.232-1.144,0.649-1.544C5.583,19.366,6.06,19.138,6.554,19.06z"
+                            />
+                            <path
+                              fill="#FFFFFF"
+                              d="M27.018,19.059c0.583-0.087,1.2,0.08,1.669,0.433c0.181,0.158,0.359,0.323,0.502,0.518
+                         c0.333,0.501,0.504,1.135,0.362,1.729c-0.124,0.659-0.561,1.249-1.157,1.559c-0.316,0.178-0.679,0.256-1.037,0.283
+                         c-0.609-0.018-1.228-0.25-1.649-0.702c-0.422-0.415-0.645-1.01-0.653-1.597c0.027-0.581,0.244-1.171,0.677-1.571
+                         C26.067,19.349,26.536,19.135,27.018,19.059z"
+                            />
+                          </g>
+                          <g id="_x23_62c2d0ff">
+                            <path
+                              fill="#62C2D0"
+                              d="M16.417,3.353c0.803-0.827,1.939-1.285,3.081-1.355c1.387-0.05,2.8,0.525,3.717,1.578
+                         c0.604,0.661,1,1.503,1.148,2.384c0.137,0.967,0.018,1.983-0.436,2.856c-0.571,1.18-1.666,2.086-2.927,2.437
+                         c-1.524,0.453-3.263,0.046-4.434-1.026c-0.088-0.089-0.221-0.068-0.334-0.073c-1.203,0.012-2.407-0.011-3.61,0.011
+                         c0.062,1.702-0.909,3.378-2.395,4.199c-0.568,0.323-1.204,0.524-1.854,0.587c-0.648,0.027-1.297,0.028-1.945,0.002
+                         c-1.649-0.139-3.164-1.209-3.897-2.686c-0.307-0.605-0.464-1.28-0.492-1.957C2.04,9.289,2.043,8.268,2.041,7.246
+                         C1.981,6.62,2.025,5.99,2.006,5.362c-0.006-0.201-0.036-0.403-0.01-0.603c0.043-0.095,0.166-0.055,0.247-0.067
+                         C2.956,4.704,3.67,4.68,4.382,4.704c0.024,1.069-0.003,2.138,0.01,3.208C4.42,8.625,4.396,9.34,4.41,10.054
+                         c-0.049,0.625,0.21,1.244,0.606,1.718c0.461,0.509,1.134,0.821,1.822,0.834c0.539-0.003,1.082,0.02,1.617-0.074
+                         c0.992-0.222,1.766-1.151,1.802-2.169c0.001-1.838,0-3.677,0-5.516c-0.02-0.095,0.058-0.175,0.154-0.154
+                         c0.746,0.006,1.492-0.012,2.238,0.01c0.026,0.97-0.004,1.94,0.014,2.911c0.52,0.03,1.041-0.01,1.56,0.018
+                         c0.287,0.032,0.576,0.026,0.865,0.023c-0.105-0.453-0.092-0.918-0.079-1.379C15.12,5.18,15.608,4.109,16.417,3.353 M19.309,4.409
+                         c-0.456,0.079-0.883,0.299-1.224,0.61c-0.463,0.445-0.717,1.081-0.733,1.719c0.024,0.488,0.176,0.974,0.466,1.369
+                         c0.442,0.621,1.211,0.976,1.967,0.954c0.411-0.025,0.819-0.137,1.168-0.358c0.493-0.314,0.867-0.814,1.014-1.381
+                         c0.173-0.598,0.068-1.261-0.248-1.794c-0.339-0.609-0.983-1.02-1.666-1.126C19.807,4.381,19.556,4.378,19.309,4.409z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M7.315,6.903C8,6.819,8.708,7.297,8.879,7.968C9.034,8.46,8.856,9.01,8.51,9.378
+                         c-0.247,0.23-0.567,0.387-0.904,0.421C7.218,9.836,6.823,9.697,6.527,9.446c-0.395-0.347-0.602-0.92-0.46-1.434
+                         C6.202,7.431,6.726,6.978,7.315,6.903z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M39.007,7.56c0.16-0.053,0.398-0.002,0.405,0.201c0.06,0.224-0.227,0.454-0.42,0.3
+                         C38.797,7.946,38.826,7.672,39.007,7.56z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M26.383,8.17c0.184-0.011,0.368-0.012,0.553,0.002c0.005,0.035,0.014,0.104,0.019,0.139
+                         c0.155-0.071,0.316-0.17,0.494-0.14c0.186,0.018,0.348,0.116,0.512,0.196c0.265-0.173,0.612-0.267,0.915-0.138
+                         c0.311,0.098,0.472,0.445,0.473,0.752c-0.005,0.391,0.003,0.783-0.005,1.174c-0.188,0.008-0.377,0.008-0.565-0.001
+                         c-0.03-0.37,0.006-0.741-0.016-1.11c-0.014-0.136-0.044-0.313-0.2-0.354c-0.187-0.08-0.415,0.089-0.391,0.29
+                         c-0.007,0.389,0.015,0.779-0.009,1.168c-0.198,0.016-0.398,0.016-0.596,0c-0.027-0.405,0.005-0.81-0.013-1.216
+                         c-0.006-0.164-0.188-0.286-0.345-0.255c-0.165,0.021-0.274,0.195-0.263,0.354c-0.006,0.374,0.008,0.748-0.002,1.122
+                         c-0.186,0.008-0.372,0.008-0.557,0c-0.008-0.374,0.002-0.747-0.002-1.121C26.386,8.746,26.35,8.457,26.383,8.17z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M29.77,8.178c0.195-0.02,0.392-0.02,0.589-0.004c0.028,0.405-0.006,0.811,0.014,1.216
+                         c0.009,0.18,0.218,0.305,0.385,0.244c0.109-0.039,0.26-0.103,0.24-0.245c0.006-0.404-0.001-0.808-0.004-1.212
+                         c0.198-0.019,0.398-0.019,0.597-0.01c0.007,0.612-0.001,1.225,0.004,1.838c0.003,0.419-0.283,0.821-0.68,0.955
+                         c-0.238,0.05-0.525,0.052-0.712-0.127c-0.161-0.15-0.334-0.306-0.407-0.52c0.15-0.004,0.307-0.03,0.453,0.015
+                         c0.163,0.083,0.317,0.238,0.518,0.177c0.207-0.06,0.238-0.307,0.267-0.489c-0.216,0.106-0.458,0.192-0.7,0.122
+                         c-0.341-0.067-0.568-0.414-0.56-0.749C29.773,8.986,29.777,8.582,29.77,8.178z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M33.38,8.169c0.182-0.01,0.365-0.011,0.548,0.003c0.005,0.035,0.014,0.104,0.019,0.138
+                         c0.156-0.074,0.321-0.161,0.499-0.139c0.186,0.015,0.349,0.112,0.513,0.193c0.259-0.149,0.578-0.261,0.873-0.152
+                         c0.311,0.079,0.52,0.406,0.509,0.718c-0.006,0.408,0.003,0.817-0.005,1.225c-0.186,0.008-0.372,0.008-0.557,0
+                         c-0.011-0.357,0.008-0.715-0.005-1.072c-0.012-0.129-0.023-0.289-0.145-0.364c-0.172-0.113-0.456,0.001-0.461,0.215
+                         c-0.011,0.407,0.007,0.815-0.005,1.222c-0.189,0.008-0.377,0.008-0.565-0.002c-0.032-0.368,0.007-0.739-0.016-1.108
+                         c-0.008-0.151-0.081-0.324-0.243-0.36c-0.175-0.058-0.342,0.099-0.392,0.252c-0.023,0.405,0.005,0.811-0.009,1.216
+                         c-0.186,0.009-0.373,0.009-0.558,0.001C33.376,9.493,33.377,8.83,33.38,8.169z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M36.773,8.655c0.182-0.308,0.542-0.474,0.89-0.487c0.397,0.014,0.731,0.301,0.875,0.66
+                         c-0.198-0.002-0.418,0.047-0.592-0.072c-0.125-0.087-0.282-0.097-0.427-0.069c-0.347,0.117-0.43,0.626-0.175,0.873
+                         c0.126,0.105,0.317,0.167,0.472,0.087c0.091-0.042,0.174-0.102,0.266-0.141c0.146-0.03,0.296-0.012,0.444-0.007
+                         c-0.083,0.217-0.234,0.403-0.422,0.539c-0.547,0.356-1.445-0.07-1.427-0.747C36.678,9.076,36.656,8.844,36.773,8.655z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M38.903,8.176c0.164-0.031,0.332-0.009,0.498-0.007c0.021,0.065,0.035,0.133,0.035,0.202
+                         c-0.005,0.592-0.006,1.183,0.001,1.775c-0.196,0.02-0.393,0.02-0.589,0.004c-0.022-0.593-0.003-1.187-0.011-1.78
+                         C38.848,8.306,38.817,8.192,38.903,8.176z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M13.162,12.914c0.834-0.006,1.669-0.005,2.504-0.001c0.006,4.049-0.002,8.098,0.004,12.147
+                         c-0.011,0.67-0.533,1.271-1.173,1.436c-0.183,0.055-0.376,0.044-0.564,0.043c-0.257-0.005-0.514,0.006-0.771-0.005
+                         c-0.025-0.866-0.003-1.733-0.011-2.599c0.001-3.454,0-6.907,0.001-10.361C13.15,13.355,13.145,13.134,13.162,12.914z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M34.111,13.173c0.174,0,0.343,0.042,0.512,0.077c3.07,0.609,6.14,1.215,9.211,1.813
+                         c0.319,0.057,0.636,0.127,0.942,0.233c1.232,0.422,2.264,1.377,2.796,2.563c0.708,1.538,0.51,3.45-0.512,4.803
+                         c-0.805,1.107-2.108,1.835-3.474,1.939c-0.375-0.009-0.755,0.033-1.126-0.045c-1.043-0.191-2.081-0.408-3.122-0.607
+                         c-0.083-0.017-0.16,0.021-0.234,0.048c-1.172,0.468-2.429,0.699-3.686,0.759c-1.532-0.008-3.063-0.001-4.595-0.004
+                         c-0.083,0.003-0.181-0.007-0.239,0.066c-0.683,0.629-1.547,1.064-2.465,1.212c-0.387,0.081-0.783,0.043-1.175,0.05
+                         c-1.063-0.079-2.087-0.54-2.869-1.262c-0.059-0.073-0.157-0.063-0.24-0.066c-1.343,0.006-2.687-0.003-4.03,0.004
+                         c-0.017,0.438,0.036,0.881-0.067,1.312c-0.134,0.852-0.468,1.679-1.02,2.347c-0.888,1.137-2.326,1.807-3.764,1.799
+                         c-0.001-0.797-0.007-1.594,0.001-2.391c0.602-0.028,1.214-0.227,1.652-0.655c0.335-0.305,0.579-0.707,0.69-1.147
+                         c0.088-0.313,0.046-0.642,0.054-0.962c0.009-0.477-0.026-0.955,0.033-1.43c0.018-1.597-0.019-3.196,0.024-4.794
+                         c0.797-0.006,1.595-0.004,2.393-0.001c0.009,1.121-0.003,2.242,0.005,3.363c0.936,0.003,1.872,0.007,2.807-0.002
+                         c-0.126-0.806-0.097-1.647,0.173-2.422c0.495-1.489,1.768-2.692,3.286-3.094c1.608-0.443,3.45,0.013,4.616,1.219
+                         c0.546,0.511,0.942,1.171,1.186,1.875c0.283,0.79,0.279,1.642,0.18,2.464c0.918-0.007,1.837,0.003,2.755-0.005
+                         c-0.029-0.048-0.056-0.099-0.092-0.141c-0.836-0.863-1.276-2.066-1.293-3.26c0.028-0.947,0.3-1.897,0.847-2.675
+                         c0.081-0.112,0.161-0.225,0.236-0.34c-0.283-0.099-0.591-0.095-0.872-0.201C33.796,14.802,33.966,13.99,34.111,13.173
+                          M37.889,16.608c-0.326,0.055-0.643,0.173-0.916,0.359c-0.512,0.325-0.862,0.882-0.972,1.474c-0.032,0.247-0.026,0.498-0.01,0.746
+                         c0.105,0.725,0.596,1.379,1.253,1.699c0.942,0.471,2.186,0.078,2.747-0.799c0.243-0.37,0.388-0.809,0.382-1.254
+                         c0.014-0.665-0.303-1.319-0.81-1.745C39.102,16.708,38.484,16.503,37.889,16.608 M42.707,17.419
+                         c0.121,0.478,0.198,0.968,0.21,1.461c-0.024,0.202-0.041,0.404-0.058,0.607c-0.114,0.78-0.41,1.541-0.888,2.172
+                         c-0.05,0.066-0.088,0.139-0.12,0.215c0.427,0.054,0.844,0.173,1.272,0.22c0.739,0.013,1.481-0.339,1.913-0.944
+                         c0.384-0.535,0.548-1.248,0.36-1.888c-0.141-0.583-0.537-1.086-1.047-1.395C43.852,17.571,43.258,17.548,42.707,17.419
+                          M27.018,19.059c-0.482,0.076-0.951,0.29-1.286,0.651c-0.433,0.401-0.65,0.991-0.677,1.571c0.008,0.587,0.231,1.182,0.653,1.597
+                         c0.42,0.452,1.04,0.684,1.649,0.702c0.358-0.027,0.721-0.105,1.037-0.283c0.595-0.309,1.032-0.899,1.157-1.559
+                         c0.142-0.594-0.029-1.228-0.362-1.729c-0.142-0.194-0.321-0.36-0.502-0.518C28.218,19.138,27.601,18.972,27.018,19.059z"
+                            />
+                            <path
+                              fill="#62C2D0"
+                              d="M6.349,17.015c0.679-0.071,1.374-0.004,2.016,0.237c1.644,0.594,2.856,2.27,2.814,4.031
+                         c0.051,1.654-0.994,3.258-2.493,3.937c-0.79,0.364-1.694,0.501-2.552,0.339c-1.085-0.184-2.096-0.802-2.741-1.695
+                         c-0.51-0.684-0.8-1.524-0.844-2.375c-0.034-0.946,0.243-1.906,0.796-2.677C4.033,17.825,5.156,17.16,6.349,17.015 M6.554,19.06
+                         c-0.494,0.078-0.971,0.305-1.311,0.677c-0.416,0.4-0.617,0.976-0.649,1.544c0.013,0.598,0.244,1.199,0.674,1.623
+                         c0.423,0.429,1.024,0.659,1.622,0.675c0.568-0.032,1.143-0.235,1.544-0.65c0.416-0.382,0.657-0.931,0.7-1.491
+                         c0.035-0.624-0.198-1.265-0.644-1.707C8.004,19.214,7.255,18.954,6.554,19.06z"
+                            />
+                          </g>
+                        </svg>
+                      </span>
+                    </div>
+                    <div class="city2">
+                      <div class="gps">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 384 512"
+                        >
+                          <path
+                            d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="search">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <g>
+                            <path
+                              d="M364,322.6h-23.3l-8.4-7.4c27.9-33.5,45.6-76.3,45.6-124.7C377.9,85.2,293.2,0.5,188,0.5 C84.7,0.5,0,85.2,0,190.4s84.7,189.9,189.9,189.9c46.5,0,90.3-17.7,123.8-45.6l8.4,7.4v23.3l146.2,146.2l43.8-43.8L364,322.6z M189,322.6c-72.6,0-131.3-58.6-131.3-131.3C57.7,117.8,116.4,60,189,60s131.3,58.6,131.3,131.3S261.6,322.6,189,322.6z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="body">
+        <div class="swiper head-slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="./assets/1-BKWmLoZ0.jpg" alt="slide" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./assets/2-BPJndv9l.jpg" alt="slide" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./assets/3-BuBJ9dHe.jpg" alt="slide" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"
+                ><img
+                  src="./assets/1728283408360-VJX3-nWNQY9mJ.jpg"
+                  alt="slide"
+              /></a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#"><img src="./assets/5-DGZLC1_8.webp" alt="slide" /></a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#"><img src="./assets/6-wEHTi7qn.jpg" alt="slide" /></a>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="y-slide">
+          <div class="news-men">
+            <img src="./assets/men-CH1Rm9wm.png" alt="men" />
+          </div>
+          <div class="news-item">
+            <div class="swiper news">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide neww">
+                  <h2>
+                    برگزاری نشست‌های همراه اول در حاشیه نمایشگاه کیش‌اینوکس 1403
+                  </h2>
+                  <h3>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="110"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#ff8c00"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="4" width="20" height="18" rx="2" ry="2" />
+                      <line x1="16" y1="2" x2="16" y2="6" />
+                      <line x1="8" y1="2" x2="8" y2="6" />
+                      <line x1="3" y1="10" x2="21" y2="10" />
+                      <rect x="5" y="12" width="3" height="3" />
+                      <rect x="12" y="12" width="3" height="3" />
+                      <rect x="19" y="12" width="3" height="3" />
+                      <rect x="5" y="17" width="3" height="3" />
+                      <rect x="12" y="17" width="3" height="3" />
+                      <rect x="19" y="17" width="3" height="3" />
+                    </svg>
+                    <span> 16 آبان 1403 </span>
+                    <div class="see-more">مشاهده</div>
+                  </h3>
+                </div>
+                <div class="swiper-slide neww">
+                  <h2>
+                    آغاز به‌کار چهارمین کنفرانس ملی انجمن علمی پارک‌های فناوری و
+                    سازمان‌های نوآوری ایران با حمایت همراه اول
+                  </h2>
+                  <h3>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="110"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#ff8c00"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="4" width="20" height="18" rx="2" ry="2" />
+                      <line x1="16" y1="2" x2="16" y2="6" />
+                      <line x1="8" y1="2" x2="8" y2="6" />
+                      <line x1="3" y1="10" x2="21" y2="10" />
+                      <rect x="5" y="12" width="3" height="3" />
+                      <rect x="12" y="12" width="3" height="3" />
+                      <rect x="19" y="12" width="3" height="3" />
+                      <rect x="5" y="17" width="3" height="3" />
+                      <rect x="12" y="17" width="3" height="3" />
+                      <rect x="19" y="17" width="3" height="3" />
+                    </svg>
+                    <span> 16 آبان 1403 </span>
+                    <div class="see-more">مشاهده</div>
+                  </h3>
+                </div>
+                <div class="swiper-slide neww">
+                  <h2>برگزاری نخستین بوت‌کمپ مدیریت محصول آکادمی همراه اول</h2>
+                  <h3>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="110"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#ff8c00"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="4" width="20" height="18" rx="2" ry="2" />
+                      <line x1="16" y1="2" x2="16" y2="6" />
+                      <line x1="8" y1="2" x2="8" y2="6" />
+                      <line x1="3" y1="10" x2="21" y2="10" />
+                      <rect x="5" y="12" width="3" height="3" />
+                      <rect x="12" y="12" width="3" height="3" />
+                      <rect x="19" y="12" width="3" height="3" />
+                      <rect x="5" y="17" width="3" height="3" />
+                      <rect x="12" y="17" width="3" height="3" />
+                      <rect x="19" y="17" width="3" height="3" />
+                    </svg>
+                    <span> 19 آبان 1403 </span>
+                    <div class="see-more">مشاهده</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="news-archive">آرشیو</div>
+        </div>
+
+        <div
+          class="public"
+        >
+          <div class="public-star">
+            <div class="star-svg">
+              <svg
+                version="1.0"
+                id="Layer_1"
+                xmlns="http:.//www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="97px"
+                height="100px"
+                viewBox="0 0 97 100"
+                enable-background="new 0 0 97 100"
+                xml:space="preserve"
+              >
+                <g>
+                  <linearGradient
+                    id="SVGID_1_"
+                    gradientUnits="userSpaceOnUse"
+                    x1="-987.9272"
+                    y1="577.9766"
+                    x2="-947.2591"
+                    y2="577.9766"
+                    gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                  >
+                    <stop offset="0" style="stop-color: #ffc717" />
+                    <stop offset="0.2081" style="stop-color: #fec318" />
+                    <stop offset="0.4099" style="stop-color: #fdb719" />
+                    <stop offset="0.6092" style="stop-color: #faa41c" />
+                    <stop offset="0.8056" style="stop-color: #f5891f" />
+                    <stop offset="1" style="stop-color: #f06624" />
+                  </linearGradient>
+                  <polygon
+                    fill="url(#SVGID_1_)"
+                    points="48.054,75.497 38.968,63.691 24.092,64.482 32.513,52.193 27.164,38.29 41.454,42.501 
+       53.024,33.117 53.434,48.009 65.934,56.113 51.898,61.105 	"
+                  />
+                  <g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_2_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-981.8757"
+                        y1="541.5543"
+                        x2="-970.8464"
+                        y2="541.5543"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_2_)"
+                        d="M57.044,24.493c0,0,0.351-2.913,0.997-5.774c0.619-2.867,1.524-5.658,1.524-5.658
+           c0.015-0.067,0.64-1.325,1.365-2.385c0.096,0.375,0.191,0.745,0.286,1.114c-0.267-0.268-0.448-0.725-0.4-1.105
+           c0.042-0.38,0.208-0.599,0.357-0.774c0.315-0.322,0.661-0.452,0.998-0.473c0.352-0.016,0.649,0.139,0.767,0.363
+           c0.062,0.171-0.009,0.257-0.068,0.33c-0.063,0.079-0.198,0.058-0.302,0.102c-0.042,0.085-0.075,0.168-0.075,0.259
+           c-0.012,0.09-0.038,0.223,0.013,0.29c0.056,0.032-0.075-0.039-0.123-0.055c-0.076-0.024-0.134-0.039-0.187-0.038
+           c-0.096,0-0.035,0.031,0.061-0.095l0.735-0.957l-0.158,1.737c-0.113,1.243-0.332,2.555-0.346,2.619c0,0-0.861,2.656-1.45,5.385
+           c-0.615,2.723-0.949,5.496-0.949,5.496c-0.007,0.061-0.32,1.195-0.698,2.327c-0.374,1.13-0.812,2.265-1.237,2.247
+           c-0.421-0.018-0.749-1.21-0.924-2.433C57.057,25.797,57.036,24.556,57.044,24.493z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_3_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-961.5658"
+                        y1="548.2333"
+                        x2="-957.9893"
+                        y2="548.2333"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_3_)"
+                        d="M64.589,36.464c0,0,0.247-0.334,0.642-0.815c0.402-0.476,0.962-1.089,1.567-1.658
+           c0.604-0.57,1.255-1.087,1.754-1.459c0.504-0.366,0.854-0.59,0.854-0.59c0.028-0.022,0.69-0.248,1.394-0.317
+           c0.703-0.077,1.432,0.018,1.604,0.399c0.177,0.391-0.194,0.977-0.554,1.5c-0.367,0.517-0.741,0.967-0.765,0.986
+           c0,0-0.293,0.187-0.716,0.493c-0.418,0.313-0.964,0.746-1.471,1.224c-0.507,0.478-0.977,0.993-1.314,1.391
+           c-0.331,0.404-0.538,0.683-0.538,0.683c-0.02,0.024-0.504,0.383-1.053,0.733c-0.552,0.344-1.17,0.696-1.549,0.497
+           c-0.371-0.194-0.412-0.944-0.282-1.661C64.285,37.155,64.566,36.491,64.589,36.464z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_4_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-942.7592"
+                        y1="547.7086"
+                        x2="-928.1034"
+                        y2="547.7086"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_4_)"
+                        d="M92.475,52.072l-12.13,1.55c-0.132,0.017-5-0.054-5.107-0.894
+           c-0.107-0.84,4.586-2.132,4.718-2.149l12.13-1.55c0.132-0.017,5.16,0.033,5.267,0.874C97.461,50.743,92.607,52.056,92.475,52.072
+           z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_5_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-937.4476"
+                        y1="565.4426"
+                        x2="-929.6656"
+                        y2="565.4426"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_5_)"
+                        d="M77.288,67.919l-4.23-1.624c-0.046-0.018-1.467-1.299-1.164-2.09
+           c0.304-0.791,2.217-0.792,2.263-0.775l4.23,1.624c0.046,0.018,1.523,1.32,1.219,2.111C79.303,67.957,77.334,67.937,77.288,67.919
+           z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_6_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-939.0001"
+                        y1="587.3759"
+                        x2="-921.2076"
+                        y2="587.3759"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_6_)"
+                        d="M65.268,89.03c0,0-1.365-2.027-2.844-3.973c-1.472-1.951-3.054-3.814-3.054-3.814
+           c-0.042-0.094-2.091-3.435-1.491-4.008c0.627-0.598,3.78,1.918,3.834,2.027c0,0,1.635,1.926,3.157,3.942
+           c1.528,2.011,2.939,4.106,2.939,4.106c0.091,0.081,1.729,3.91,0.981,4.352C68.077,92.082,65.347,89.096,65.268,89.03z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_7_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-942.2471"
+                        y1="601.4391"
+                        x2="-936.6109"
+                        y2="601.4391"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_7_)"
+                        d="M46.323,90.525c0,0-0.372-0.84-0.662-1.712c-0.294-0.87-0.503-1.765-0.503-1.765
+           c-0.029-0.048,0.373-1.59,1.225-1.702c0.42-0.065,0.848,0.196,1.183,0.453c0.333,0.26,0.573,0.525,0.577,0.542
+           c0,0,0.177,0.76,0.427,1.498c0.246,0.74,0.562,1.453,0.562,1.453c0.006,0.016-0.021,0.381-0.126,0.799
+           c-0.107,0.417-0.286,0.893-0.66,1.095C47.599,91.613,46.328,90.582,46.323,90.525z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_8_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-954.758"
+                        y1="615.557"
+                        x2="-947.3546"
+                        y2="615.557"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_8_)"
+                        d="M26.032,94.932l3.235-9.05c0.035-0.099,1.957-3.434,2.755-3.149
+           c0.798,0.285,0.169,4.083,0.134,4.182l-3.235,9.05c-0.035,0.099-2,3.554-2.797,3.268C25.325,98.948,25.996,95.031,26.032,94.932z
+           "
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_9_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-966.8401"
+                        y1="615.8722"
+                        x2="-962.5644"
+                        y2="615.8722"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_9_)"
+                        d="M16.48,83.375l1.809-4.001c0.02-0.044,1.359-1.338,2.13-0.989
+           c0.772,0.349,0.685,2.209,0.665,2.253l-1.809,4.001c-0.02,0.044-1.382,1.39-2.154,1.041C16.349,85.332,16.46,83.419,16.48,83.375
+           z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_10_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-978.9465"
+                        y1="615.4781"
+                        x2="-975.4427"
+                        y2="615.4781"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_10_)"
+                        d="M5.044,75.938l7.403-7.483c0.081-0.082,3.486-2.548,4.089-1.952
+           c0.602,0.596-1.827,4.028-1.908,4.109l-7.403,7.483c-0.081,0.081-3.584,2.646-4.186,2.05C2.437,79.55,4.964,76.02,5.044,75.938z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_11_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-990.6335"
+                        y1="599.212"
+                        x2="-984.241"
+                        y2="599.212"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_11_)"
+                        d="M10.812,52.835c0,0,1.174-0.098,2.351-0.11c1.177-0.016,2.353,0.055,2.353,0.055
+           c0.063-0.014,1.841,0.836,1.725,1.687c-0.05,0.422-0.526,0.751-0.981,0.992c-0.456,0.238-0.897,0.385-0.921,0.384
+           c0,0-1.069-0.065-2.14-0.05c-1.071,0.01-2.138,0.1-2.138,0.1c-0.024,0.001-0.482-0.134-0.958-0.359
+           c-0.475-0.228-0.974-0.543-1.034-0.964C8.93,53.721,10.749,52.822,10.812,52.835z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_12_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-1013.3809"
+                        y1="588.111"
+                        x2="-992.7637"
+                        y2="588.111"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_12_)"
+                        d="M5.353,31.311c0,0,2.249,1.703,4.584,3.287c2.33,1.591,4.74,3.058,4.74,3.058
+           c0.084,0.086,3.588,2.917,3.196,3.647l0,0c-0.411,0.763-4.698-0.934-4.796-1.03c0,0-2.474-1.506-4.865-3.139
+           c-2.396-1.626-4.705-3.374-4.705-3.374c-0.126-0.056-3.395-3.516-2.834-4.179C1.206,28.951,5.242,31.266,5.353,31.311z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_13_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-1008.7642"
+                        y1="572.2451"
+                        x2="-995.683"
+                        y2="572.2451"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_13_)"
+                        d="M19.348,20.742l4.529,5.676c0.049,0.062,1.298,2.727,0.635,3.256
+           c-0.662,0.528-2.984-1.28-3.033-1.342l-4.529-5.676c-0.049-0.062-1.357-2.802-0.695-3.33
+           C16.917,18.796,19.298,20.68,19.348,20.742z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_14_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-1010.832"
+                        y1="555.0134"
+                        x2="-990.9938"
+                        y2="555.0134"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_14_)"
+                        d="M32.543,19.612L30.292,5.998c-0.025-0.148-0.234-5.626,0.602-5.764
+           c0.836-0.138,2.401,5.115,2.425,5.264l2.252,13.614c0.024,0.148,0.264,5.805-0.572,5.943
+           C34.163,25.192,32.568,19.76,32.543,19.612z"
+                      />
+                    </g>
+                    <g>
+                      <linearGradient
+                        id="SVGID_15_"
+                        gradientUnits="userSpaceOnUse"
+                        x1="-990.4953"
+                        y1="551.9599"
+                        x2="-984.9632"
+                        y2="551.9599"
+                        gradientTransform="matrix(0.7396 0.6731 -0.6731 0.7396 1146.8011 275.8688)"
+                      >
+                        <stop offset="0" style="stop-color: #ffc717" />
+                        <stop offset="0.2081" style="stop-color: #fec318" />
+                        <stop offset="0.4099" style="stop-color: #fdb719" />
+                        <stop offset="0.6092" style="stop-color: #faa41c" />
+                        <stop offset="0.8056" style="stop-color: #f5891f" />
+                        <stop offset="1" style="stop-color: #f06624" />
+                      </linearGradient>
+                      <path
+                        fill="url(#SVGID_15_)"
+                        d="M43.532,21.401c0,0-0.264-0.957-0.409-1.937c-0.153-0.979-0.184-1.972-0.184-1.972
+           c-0.026-0.059,0.686-1.598,1.546-1.519c0.425,0.027,0.785,0.392,1.061,0.728c0.273,0.339,0.457,0.66,0.458,0.678
+           c0,0,0.026,0.816,0.152,1.623c0.12,0.808,0.337,1.595,0.337,1.595c0.004,0.018-0.073,0.389-0.229,0.805
+           c-0.159,0.414-0.39,0.881-0.787,1.034c-0.393,0.152-0.889-0.068-1.276-0.364C43.812,21.78,43.537,21.422,43.532,21.401z"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="star-title">تازه ها و پربازدیدها</div>
+          </div>
+          <div class="public-slide">
+            <div class="swiper pu">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide public-item">
+                  <div class="public-svg">
+                    <svg
+                      id="Layer_2"
+                      data-name="Layer 2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 38.89 38.89"
+                    >
+                      <g id="Layer_1-2" data-name="Layer 1">
+                        <path
+                          d="M37.92,25.46s.04-.1,.05-.15c.59-1.85,.91-3.82,.91-5.87s-.32-4.02-.91-5.87c-.02-.05-.03-.09-.05-.14C35.39,5.65,28.07,0,19.44,0h0C8.72,0,0,8.72,0,19.44c0,2.09,.34,4.09,.95,5.98H.95c2.53,7.79,9.84,13.45,18.47,13.46,0,0,.02,0,.03,0,0,0,.01,0,.02,0,8.61,0,15.92-5.65,18.46-13.43ZM3,19.44c0-1.34,.18-2.64,.49-3.89h6.3c-.12,1.26-.19,2.56-.19,3.89s.07,2.64,.19,3.9H3.49c-.31-1.25-.49-2.55-.49-3.9Zm9.59,0c0-1.36,.08-2.66,.21-3.89h5.14v7.79h-5.14c-.13-1.24-.21-2.53-.21-3.9Zm13.04-6.89h-4.69V3.48c1.91,1.16,3.74,4.43,4.69,9.07ZM17.94,3.48V12.55h-4.68c.94-4.64,2.77-7.91,4.68-9.07Zm0,22.86v9.07c-1.91-1.16-3.74-4.43-4.68-9.07h4.68Zm3,9.07v-9.07h4.69c-.94,4.64-2.77,7.91-4.69,9.07Zm0-12.07v-7.79h5.14c.13,1.24,.21,2.53,.21,3.89s-.08,2.66-.21,3.9h-5.14Zm8.16-7.79h6.3c.31,1.25,.49,2.55,.49,3.89s-.18,2.64-.49,3.9h-6.3c.12-1.26,.19-2.56,.19-3.9s-.07-2.64-.19-3.89Zm5.25-3h-5.68c-.62-3.32-1.67-6.18-3.04-8.33,3.86,1.57,6.98,4.57,8.72,8.33ZM13.26,4.22c-1.37,2.15-2.42,5.01-3.04,8.33H4.54c1.75-3.76,4.87-6.76,8.72-8.33ZM4.54,26.34h5.68c.62,3.32,1.67,6.18,3.04,8.33-3.86-1.57-6.97-4.57-8.72-8.33Zm21.09,8.33c1.37-2.15,2.42-5.01,3.04-8.33h5.68c-1.75,3.76-4.87,6.76-8.72,8.33Z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <div class="public-read">خرید بسته های اینترنت</div>
+                    <div class="public-title">مشاهده بیشتر</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide public-item">
+                  <div class="public-svg">
+                    <svg
+                      id="Layer_2"
+                      data-name="Layer 2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 27.62 38.89"
+                    >
+                      <g id="Layer_1-2" data-name="Layer 1">
+                        <g>
+                          <path
+                            d="M25.12,0H11.55c-.65,0-1.26,.25-1.73,.7L.77,9.36c-.49,.47-.77,1.13-.77,1.81v25.22c0,1.38,1.12,2.5,2.5,2.5H25.12c1.38,0,2.5-1.12,2.5-2.5V2.5c0-1.38-1.12-2.5-2.5-2.5Zm-.5,35.89H3V11.38L11.75,3h12.87V35.89Z"
+                          ></path>
+                          <path
+                            d="M10.52,16.29c.51-.65,.4-1.59-.25-2.11-.65-.51-1.59-.4-2.11,.25l-3.22,4.1c-.35,.45-.42,1.07-.17,1.58,.25,.52,.77,.84,1.35,.84h15.38c.83,0,1.5-.67,1.5-1.5s-.67-1.5-1.5-1.5H9.21l1.31-1.67Z"
+                          ></path>
+                          <path
+                            d="M21.5,24.97H6.12c-.83,0-1.5,.67-1.5,1.5s.67,1.5,1.5,1.5h12.29l-1.31,1.67c-.51,.65-.4,1.59,.25,2.11,.27,.22,.6,.32,.93,.32,.44,0,.88-.2,1.18-.57l3.22-4.1c.35-.45,.42-1.07,.17-1.58-.25-.52-.77-.84-1.35-.84Z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <div class="public-read">انتقال اعتبار</div>
+                    <div class="public-title">مشاهده بیشتر</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide public-item">
+                  <div class="public-svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 46.5 30.9"
+                      width="70"
+                      height="70"
+                    >
+                      <path
+                        d="M14.3,8.8A3.1,3.1,0,0,1,15.4,7l5.9-5.9A2.9,2.9,0,0,1,22.8.2a2.3,2.3,0,0,1,2.1.6c2.2,2.2,4.4,4.3,6.5,6.5a2.4,2.4,0,0,1-.6,3.9,2.5,2.5,0,0,1-2.8-.6l-2-2-.2-.3h-.2V28.3a2.4,2.4,0,0,1-.9,2.1,2.1,2.1,0,0,1-2.4.3,2.3,2.3,0,0,1-1.4-1.9V8.3l-.3.2-2.3,2.4a2.4,2.4,0,0,1-3.9-1.3c-.1,0-.1-.1-.1-.2Z"
+                      ></path>
+                      <path
+                        d="M6.6,22.7V2.8A2.6,2.6,0,0,1,7.5.6,2.6,2.6,0,0,1,9.9.3a2.5,2.5,0,0,1,1.4,2V22.7l.3-.2,2.1-2.1a2.5,2.5,0,0,1,3.2-.3,2.3,2.3,0,0,1,.2,3.6l-6.4,6.5a2.3,2.3,0,0,1-3.5-.1L.7,23.7a2.5,2.5,0,0,1,1.1-4.1,2.4,2.4,0,0,1,2.3.7l2.2,2.1c0,.1.1.2.2.3Z"
+                      ></path>
+                      <path
+                        d="M42.6,0l.5.2a.8.8,0,0,1,.2,1L37.8,12.6a1.2,1.2,0,0,1-.5.5h-.4l-.4-.2a.7.7,0,0,1-.3-1C38.1,8.1,39.9,4.3,41.8.4a1,1,0,0,1,.5-.4Z"
+                      ></path>
+                      <path
+                        d="M33.7,3.9V2.6A1.8,1.8,0,0,1,35.3.7a4.1,4.1,0,0,1,1.9.1,1.9,1.9,0,0,1,1.2,1.6.4.4,0,0,1,.1.3V5.2a2.1,2.1,0,0,1-.7,1.5,2.2,2.2,0,0,1-1.1.5,2.9,2.9,0,0,1-1.6-.1,1.7,1.7,0,0,1-1.4-1.7V3.9Zm1.6,0h0V5.2a.5.5,0,0,0,.6.6c.5.1,1,0,1-.8V2.6a.6.6,0,0,0-.6-.5c-.1,0-.2-.1-.3,0a.7.7,0,0,0-.7.5V3.9Z"
+                      ></path>
+                      <path
+                        d="M45.8,9.1v1.3a1.9,1.9,0,0,1-1.7,1.9,3.7,3.7,0,0,1-1.8-.1A1.7,1.7,0,0,1,41,10.7V7.9a2.9,2.9,0,0,1,.2-.9,1.7,1.7,0,0,1,1.2-1.1,6.7,6.7,0,0,1,2,0,2.1,2.1,0,0,1,1.4,1.8V9.1Zm-3.2,0h0v1.2a.7.7,0,0,0,.6.7h.3a.6.6,0,0,0,.7-.7V7.9A.8.8,0,0,0,43,7.3a.7.7,0,0,0-.4.7Z"
+                      ></path>
+                      <path
+                        d="M39,30.9H33.2V22.8H39Zm-2.4-8.1-1.7,3.1,1.3-.2.6,1L39,22.8Z"
+                      ></path>
+                      <path
+                        d="M39.5,22.8h5.8v8.1H39.5Zm0,0,2.2,3.9.6-1,1.3.2-1.7-3.1Z"
+                      ></path>
+                      <rect x="32.1" y="19" width="6.6" height="3.2"></rect>
+                      <rect x="39.9" y="19" width="6.6" height="3.2"></rect>
+                      <path
+                        d="M40.2,19.9s-5-1-5.8-1.6a1.9,1.9,0,0,1-.1-2.7,2.5,2.5,0,0,1,2.9-.5C38,15.7,40.2,19.9,40.2,19.9Zm-3.4-4.1a1.4,1.4,0,0,0-1.8.3,1.1,1.1,0,0,0,0,1.7,36.2,36.2,0,0,0,3.7,1A19.9,19.9,0,0,0,36.8,15.8Z"
+                      ></path>
+                      <path
+                        d="M41.4,15.1a2.3,2.3,0,0,1,2.8.5,1.7,1.7,0,0,1-.1,2.7c-.8.6-5.7,1.6-5.7,1.6S40.5,15.7,41.4,15.1Zm-1.5,3.7a29.6,29.6,0,0,0,3.6-1,1.2,1.2,0,0,0,.1-1.7,1.4,1.4,0,0,0-1.8-.3A19.9,19.9,0,0,0,39.9,18.8Z"
+                      ></path>
+                    </svg>
+                    <div class="public-read">اینترنت همراهی</div>
+                    <div class="public-title">مشاهده بیشتر</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide public-item">
+                  <div class="public-svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 27.6 38.9"
+                      width="50"
+                    >
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_2-2" data-name="Layer 2">
+                          <g id="Layer_1-2" data-name="Layer 1-2">
+                            <g>
+                              <path
+                                d="M25.1,0H11.6A2.9,2.9,0,0,0,9.8.7L.8,9.4A2.3,2.3,0,0,0,0,11.2V36.4a2.5,2.5,0,0,0,2.5,2.5H25.1a2.5,2.5,0,0,0,2.5-2.5V2.5A2.5,2.5,0,0,0,25.1,0Zm-.5,35.9H3V11.4L11.8,3H24.6Z"
+                              ></path>
+                              <path
+                                d="M8.8,20.7a1.5,1.5,0,0,0,0,3h4.4v4.4a1.5,1.5,0,0,0,1.5,1.5,1.5,1.5,0,0,0,1.5-1.5V23.7h4.3a1.5,1.5,0,0,0,0-3H16.2V16.4a1.5,1.5,0,0,0-1.5-1.5,1.4,1.4,0,0,0-1.5,1.5v4.3Z"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    <div class="public-read">اینترنت اضطراری</div>
+                    <div class="public-title">مشاهده بیشتر</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide public-item">
+                  <div class="public-svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 38.9 38.9"
+                    >
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_2-2" data-name="Layer 2">
+                          <g id="Layer_1-2" data-name="Layer 1-2">
+                            <path
+                              d="M36.4,9.9H29.8a6.8,6.8,0,0,0,1-3.5A6.4,6.4,0,0,0,24.4,0a6.6,6.6,0,0,0-5,2.3A6.2,6.2,0,0,0,14.5,0,6.4,6.4,0,0,0,8.1,6.4a6,6,0,0,0,1,3.5H2.5A2.5,2.5,0,0,0,0,12.4v7.7a2.5,2.5,0,0,0,1.6,2.3v14a2.5,2.5,0,0,0,2.5,2.5H34.8a2.5,2.5,0,0,0,2.5-2.5v-14a2.5,2.5,0,0,0,1.6-2.3V12.4a2.5,2.5,0,0,0-2.5-2.5Zm-.5,9.7H21V12.9H35.9ZM24.4,3a3.4,3.4,0,0,1,3.4,3.4,3.5,3.5,0,0,1-3.4,3.5H20.9V6.4A3.5,3.5,0,0,1,24.4,3ZM11.1,6.4a3.4,3.4,0,1,1,6.8,0V9.9H14.5A3.5,3.5,0,0,1,11.1,6.4ZM3,12.9H17.9v6.7H3Zm1.6,9.7H18V35.9H4.6ZM34.3,35.9H21V22.6H34.3Z"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    <div class="public-read">شانس هفتگی</div>
+                    <div class="public-title">مشاهده بیشتر</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buy">
+          <div
+            class="buy-best"
+            style="background-image: url(./img/buy/shop.jpg);"          >
+            <div class="buy-best-svg">
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="140px"
+                height="116px"
+                viewBox="0 0 140 116"
+                enable-background="new 0 0 140 116"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    fill="#FFFFFF"
+                    d="M52.71,84.915c-0.498,0.708-0.626,1.609-0.339,2.426l3.871,10.921c0.373,1.067,1.382,1.774,2.507,1.774
+		h46.412c1.471,0,2.664-1.186,2.664-2.659s-1.193-2.664-2.664-2.664H60.634l-1.98-5.591h49.236c1.163,0,2.19-0.756,2.54-1.865
+		l10.788-34.083h15.794c1.471,0,2.664-1.193,2.664-2.666c0-1.471-1.193-2.664-2.664-2.664h-17.748c-1.16,0-2.19,0.752-2.54,1.861
+		l-3.369,10.648H52.788c-0.866,0-1.679,0.418-2.176,1.125c-0.502,0.708-0.626,1.609-0.339,2.426l7.036,19.886h-2.426
+		C54.017,83.79,53.207,84.208,52.71,84.915z M100.786,83.79l3.343-18.112h7.538l-5.729,18.112H100.786z M90.771,83.79l0.67-18.112
+		h7.272L95.37,83.79H90.771z M78.887,65.678h7.219L85.438,83.79h-4.559L78.887,65.678z M66.477,65.678h7.048l1.994,18.112h-4.415
+		L66.477,65.678z M56.556,65.678h4.426l4.627,18.112h-2.65L56.556,65.678z"
+                  />
+                  <path
+                    fill="#FFFFFF"
+                    d="M91.415,109.202c0,3.751,3.044,6.798,6.796,6.798c3.756,0,6.798-3.046,6.798-6.798
+		s-3.044-6.794-6.798-6.794C94.457,102.408,91.415,105.45,91.415,109.202z M96.423,109.199c0-0.985,0.8-1.788,1.788-1.788
+		c0.99,0,1.791,0.803,1.791,1.788c0,0.99-0.801,1.793-1.791,1.793C97.223,110.992,96.423,110.192,96.423,109.199z"
+                  />
+                  <path
+                    fill="#FFFFFF"
+                    d="M60.085,109.202c0,3.751,3.042,6.798,6.794,6.798c3.752,0,6.794-3.046,6.794-6.798
+		s-3.042-6.794-6.794-6.794C63.127,102.408,60.085,105.45,60.085,109.202z M65.091,109.199c0-0.985,0.798-1.788,1.788-1.788
+		c0.988,0,1.786,0.803,1.786,1.788c0,0.99-0.798,1.793-1.786,1.793S65.093,110.192,65.091,109.199z"
+                  />
+                  <path
+                    fill="#FFFFFF"
+                    d="M-0.398,44.718c0,24.644,20.049,44.689,44.686,44.689c1.459,0,2.906-0.072,4.328-0.21
+		c-1.665-6.114,4.2-8.066,4.286-8.094c0.004-0.005,0.004-0.009,0.009-0.014l-1.905-4.728c-2.085,6.175-4.593,9.576-6.717,9.576
+		c-3.234,0-7.368-7.846-9.516-21.466h11.563c-0.226-1.345,0.009-2.498,0.516-3.469H34.285c-0.536-4.366-0.88-9.231-0.938-14.547
+		h21.887c-0.04,3.53-0.215,6.838-0.474,9.955h3.46c0.273-3.28,0.441-6.621,0.483-9.955h13.884c-0.098,3.451-0.511,6.775-1.16,9.955
+		h3.525c0.619-3.194,1.014-6.518,1.107-9.955h9.408c-0.145,3.446-0.719,6.778-1.66,9.955h3.614c1.01-3.728,1.559-7.646,1.559-11.689
+		c0-24.642-20.05-44.691-44.689-44.691C19.65,0.03-0.4,20.077-0.398,44.718z M6.347,28.615h8.29
+		c-1.24,4.487-1.977,9.322-2.115,14.369H3.116C3.326,37.904,4.456,33.059,6.347,28.615z M26.836,7.388
+		c-4.749,4.398-8.61,10.529-11.127,17.752H8.026C12.221,17.397,18.833,11.147,26.836,7.388z M15.994,42.984
+		c0.145-5.08,0.92-9.924,2.225-14.369H30.8c-0.553,4.643-0.864,9.525-0.922,14.369H15.994z M29.878,46.453
+		c0.058,4.908,0.373,9.85,0.943,14.547H18.268c-1.333-4.494-2.129-9.399-2.276-14.547H29.878z M37.616,4.666
+		C34.68,9.19,32.541,16.621,31.264,25.14H19.367C23.138,15.018,29.74,7.447,37.616,4.666z M53.833,25.143H34.747
+		c2.139-13.73,6.297-21.642,9.544-21.642C47.541,3.501,51.694,11.413,53.833,25.143z M73.945,28.615h8.288
+		c1.893,4.445,3.021,9.289,3.233,14.369h-9.408C75.92,37.936,75.183,33.101,73.945,28.615z M61.744,7.388
+		c8.001,3.759,14.612,10.008,18.81,17.752h-7.685C70.352,17.919,66.491,11.789,61.744,7.388z M57.783,28.615h12.581
+		c1.301,4.445,2.078,9.289,2.223,14.369H58.703C58.644,38.139,58.339,33.258,57.783,28.615z M50.966,4.666
+		c7.874,2.78,14.477,10.351,18.247,20.474H57.314C56.041,16.621,53.908,9.19,50.966,4.666z M33.346,42.984
+		c0.06-5.245,0.392-10.05,0.917-14.369h20.054c0.525,4.316,0.859,9.123,0.917,14.369H33.346z M19.436,64.471h11.855
+		c1.277,8.449,3.406,15.807,6.324,20.299C29.787,82.006,23.215,74.505,19.436,64.471z M8.124,64.471h7.655
+		c2.512,7.148,6.35,13.214,11.057,17.577C18.893,78.322,12.326,72.136,8.124,64.471z M3.116,46.453h9.406
+		c0.143,5.115,0.894,10.009,2.162,14.547H6.431C4.489,56.505,3.331,51.601,3.116,46.453z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="buy-best-title">فروشگاه آنلاین</div>
+            <div class="buy-best-more">
+              <div class="buy-best-more-button">رفتن به فروشگاه</div>
+            </div>
+          </div>
+          <div class="buy-item">
+            <div class="buy-img">
+              <img
+                src="./assets/youth-postpaid-simcards-sale-boy-01-BSaq1fMy.webp"
+                alt="sim"
+              />
+            </div>
+            <div class="buy-cart">
+              <div class="cart-title">خرید سیم کارت</div>
+              <div class="cart-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path
+                    d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="buy-item">
+            <div class="buy-img">
+              <img
+                src="./assets/prepaid-to-postpaid-01-wRpuTWsr.webp"
+                alt="sim"
+              />
+            </div>
+            <div class="buy-cart">
+              <div class="cart-title">تبدیل اعتباری به دائمی</div>
+              <div class="cart-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path
+                    d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="buy-item">
+            <div class="buy-img">
+              <img src="./assets/buy-phone-01-BkexV3JR.webp" alt="sim" />
+            </div>
+            <div class="buy-cart">
+              <div class="cart-title">خرید گوشی</div>
+              <div class="cart-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path
+                    d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="magazine" style="background-image: url(./img/buy/magazine.jpg);">
+          <div
+            class="magazine-img"
+            style="background-image: url(../dist/img/buy/magazine.jpg)"
+          >
+            <div class="swiper magazines">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide magazine-item">
+                  <div class="item-magazine">
+                    <div class="magazine-imgg">
+                      <img src="./assets/1-xqPzm3xh.jpg" alt="magazine" />
+                      <div class="shadow"></div>
+                    </div>
+                  </div>
+
+                  <div class="item-magazine-next">
+                    <h2>اپلیکیشن همراه من</h2>
+                    <div class="magazine-lorem">
+                      با نصب و استفاده از اپلیکیشن "همراه‌من" می‌توانید خدمات
+                      مختلف و متنوع همراه‌اول را به صورت غیرحضوری و آنلاین تجربه
+                      کنید.
+                    </div>
+                    <div class="magazine-more">
+                      <div class="magazine-btn">مشاهده ادامه مطالب</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide magazine-item">
+                  <div class="item-magazine">
+                    <div class="magazine-imgg">
+                      <img src="./assets/2-BwlmUJFu.jpg" alt="magazine" />
+                      <div class="shadow"></div>
+                    </div>
+                  </div>
+
+                  <div class="item-magazine-next">
+                    <h2>انتقال اعتبار</h2>
+                    <div class="magazine-lorem">
+                      سرویس انتقال اعتبار به مشترکین امکان می دهد در زمانی بسیار
+                      کوتاه از خطوط دائمی یا اعتباری برای خطوط اعتباری شارژ یا
+                      اعتبار منتقل کنند.
+                    </div>
+                    <div class="magazine-more">
+                      <div class="magazine-btn">مشاهده ادامه مطالب</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide magazine-item">
+                  <div class="item-magazine">
+                    <div class="magazine-imgg">
+                      <img src="./assets/3-BdakC0f-.jpg" alt="magazine" />
+                      <div class="shadow"></div>
+                    </div>
+                  </div>
+
+                  <div class="item-magazine-next">
+                    <h2>رومینگ</h2>
+                    <div class="magazine-lorem">
+                      رومینگ چیست؟ همراه‌اول در کدام کشورها سرویس رومینگ ارائه
+                      می دهد؟ تعرفه ها و تخفیف های رومینگ چقدر است؟ هر آنچه در
+                      مورد این سرویس نیاز دارید در لینک زیر در دسترس شماست.
+                    </div>
+                    <div class="magazine-more">
+                      <div class="magazine-btn">مشاهده ادامه مطالب</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide magazine-item">
+                  <div class="item-magazine">
+                    <div class="magazine-imgg">
+                      <img src="./assets/4-Vdy0xdcy.jpg" alt="magazine" />
+                      <div class="shadow"></div>
+                    </div>
+                  </div>
+
+                  <div class="item-magazine-next">
+                    <h2>پیامک های تبلیغاتی</h2>
+                    <div class="magazine-lorem">
+                      اگر تمایل به دریافت پیامک های تبلیغاتی ندارید، با روش های
+                      اشاره شده در لینک زیر می‌توانید آنها را غیرفعال کنید.
+                    </div>
+                    <div class="magazine-more">
+                      <div class="magazine-btn">مشاهده ادامه مطالب</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide magazine-item">
+                  <div class="item-magazine">
+                    <div class="magazine-imgg">
+                      <img src="./assets/5-D1shyMo2.jpg" alt="magazine" />
+                      <div class="shadow"></div>
+                    </div>
+                  </div>
+
+                  <div class="item-magazine-next">
+                    <h2>مشاهده و پرداخت صورت حساب</h2>
+                    <div class="magazine-lorem">
+                      در همراه ‌اول روش های مختلفی برای مشاهده و پرداخت قبض میان
+                      دوره یا پایان دوره وجود دارد. یکی از روش های پرداخت آنلاین
+                      قبض، استفاده از لینک زیر است.
+                    </div>
+                    <div class="magazine-more">
+                      <div class="magazine-btn">مشاهده ادامه مطالب</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="footer1">
+            <div class="footer-item">
+              <h2>اینترنت</h2>
+              <div class="sub-item">اینترنت همراه</div>
+              <div class="sub-item">بسته های اینترنتی</div>
+              <div class="sub-item">تنظیمات و فعالسازی</div>
+              <div class="sub-item">مودم ها</div>
+            </div>
+
+            <div class="footer-item">
+              <h2>سرویس ها</h2>
+              <div class="sub-item">اپلیکیشن همراه</div>
+              <div class="sub-item">پرداخت صورت حساب</div>
+              <div class="sub-item">خرید شارژ</div>
+              <div class="sub-item">رومینگ</div>
+            </div>
+
+            <div class="footer-item">
+              <h2>طرح ها و برندگان</h2>
+              <div class="sub-item">کمپین بازگشت به کلاس</div>
+              <div class="sub-item">آوای انتظار</div>
+              <div class="sub-item">سیم کارت رویایی</div>
+              <div class="sub-item">اینترنت هدیه برای برندگان</div>
+            </div>
+
+            <div class="footer-item">
+              <h2>لینک های ویژه</h2>
+              <div class="sub-item">سازمان تنظیم مقررات</div>
+              <div class="sub-item">سامانه 195</div>
+              <div class="sub-item">اخبار</div>
+              <div class="sub-item">سازمان‌های مرتبط</div>
+            </div>
+
+            <div class="footer-item">
+              <h2>درباره ما</h2>
+              <div class="sub-item">پشتیبانی همراه‌اول</div>
+              <div class="sub-item">دفاتر و نمایندگی ها</div>
+              <div class="sub-item">فرصت های همکاری</div>
+              <div class="sub-item">مناقصه و مزایده ها</div>
+            </div>
+
+        
+
+            <div class="footer-item">
+              <img src="./assets/195-cVxCZzlX.png" alt="195" />
+            </div>
+          </div>
+          <div class="footer2">
+            <div class="ffff"></div>
+          </div>
+          <div class="footer3">
+            <div class="up">
+              <div class="upp">
+                <a href="#UP">برو بالا</a>
+              </div>
+            </div>
+            <div class="up">
+              <span
+                >کپی رایت © 1403 _ شرکت ارتباطات سیار ایران (همراه اول)</span
+              >
+            </div>
+            <div class="up"><span>شماره پروانه رگولاتوری 100/1100</span></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../../node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".head-slide", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".news", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        direction: "vertical",
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".pu", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        freeMode: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".magazines", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        autoplay: {
+          delay: 11000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
